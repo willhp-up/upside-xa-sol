@@ -1,5 +1,7 @@
 # Upside XA - Solidity Contracts
 
+![test](https://github.com/willhp-up/upside-xa-sol/actions/workflows/test.yml/badge.svg)
+
 Smart contracts for XA (https://app.upside-xa.com), a crowd-intelligence
 investment platform where analysts submit timestamped market calls, stake
 conviction tokens (UPC), and build verifiable scored records settled against
