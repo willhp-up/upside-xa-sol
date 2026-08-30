@@ -8,9 +8,9 @@ conviction tokens (UPC), and build verifiable scored records settled against
 real market prices.
 
 Six contracts, live on Polkadot Hub testnet since February 2026.
-Compiled for PolkaVM via the Revive toolchain (Solidity -> RISC-V);
-the ETH Proxy makes standard Ethereum tooling (Hardhat, MetaMask) work
-unchanged.
+Deployed via Polkadot Hub's REVM backend: standard EVM bytecode from
+vanilla Hardhat/solc, no contract modifications. (Hub's Revive framework
+also offers a native PVM/RISC-V path via resolc; not used here.)
 
 ## Deployed Contracts (Polkadot Hub Testnet, chain ID 420420417)
 
