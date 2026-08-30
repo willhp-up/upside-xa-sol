@@ -1,0 +1,16 @@
+{
+  "name": "upside-xa-sol",
+  "version": "1.0.0",
+  "description": "Upside Xa tokenized reward system — Solidity for Polkadot Hub EVM",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "test": "npx hardhat test"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.22.0"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2"
+  }
+}
