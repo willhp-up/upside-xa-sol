@@ -17,11 +17,11 @@ unchanged.
 | Contract       | Address                                      | Purpose                                        |
 |----------------|----------------------------------------------|------------------------------------------------|
 | UpsideToken    | `0x07EBC3844482E9dAd93F8D20c6e50f0F92a7ec60` | ERC-20 UPC with time locks, role-based mint/burn |
-| RewardIssuance | `0xc560ab28...`                              | Oracle scores -> proportional reward distribution |
-| BurnMechanism  | `0x54f2D2f6...`                              | Burn events (25% cap), decay burns             |
-| IdeaStaking    | `0x94e136E6...`                              | Call staking, endorsements, settlement, slashing |
-| Governance     | `0x63ba5830...`                              | Pause, oracle management, parameter control    |
-| Treasury       | `0xB874A734...`                              | 2-of-3 multi-sig treasury                      |
+| RewardIssuance | `0xc560ab28059Dc6Bb198cf34b8B94c29AE2EFD8F2`                              | Oracle scores -> proportional reward distribution |
+| BurnMechanism  | `0x54f2D2f6DD453FDcb619eD6D5B570aB279458123`                              | Burn events (25% cap), decay burns             |
+| IdeaStaking    | `0x94e136E6a9cBa5e6A218D83544471787069434B0`                              | Call staking, endorsements, settlement, slashing |
+| Governance     | `0x63ba5830Cfd2a04CdAb800140905eE8eD70C0a51`                              | Pause, oracle management, parameter control    |
+| Treasury       | `0xB874A73442b07375618Fff97C3b06A6B66359a3b`                              | 2-of-3 multi-sig treasury                      |
 
 Verified on Blockscout. `FounderVesting.sol` (founder lockup) is included
 in source but not part of the current testnet deployment.
